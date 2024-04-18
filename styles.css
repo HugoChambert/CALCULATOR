@@ -3,8 +3,8 @@ button {
     height: 100px;
     border-radius: 50px;
     border: none;
-    background-color: rgb(rgb(69, 67, 69), green, blue);
-    color: white;
+    background-color: rgb(132, 129, 129);
+    color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
@@ -31,29 +31,29 @@ button {
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: rgb(rgb(49, 49, 49), green, blue);
-    color: white;
-}
+    background-color: rgb(rgb(48, 48, 48), green, blue);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;}
 
 body{
+    background-color: rgb(62, 62, 62);
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(rgb(210, 207, 207), green, blue);
 }
 .operator-btn{
-    background-color: rgb(246, 145, 14);
+    background-color: rgb(235, 135, 5);
 }
-#operator-btn:hover{
+.operator-btn:hover{
     background-color: rgb(236, 169, 81);
 }
-#operator-btn:active{
+.operator-btn:active{
     background-color: rgb(244, 193, 127);
 }
 button:hover {
-background-color: rgb(101, 101, 101);
+background-color: rgb(164, 164, 164);
 }
 button:active {
 background-color: rgb(169, 169, 169);
